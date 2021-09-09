@@ -1,0 +1,39 @@
+body{
+    background-color: yellow;
+}
+
+
+.header {
+    font-size: 79%;
+    border: tomato dotted ;
+    overflow: auto;
+    text-align: center;
+    /* since all the elements are floating,
+       setting overflow will allow the rest of
+       the layout to flow properly */
+  }
+  .header-menu {
+    float: right;
+    list-style-type: none;
+  }
+  
+  .header-menu > li {
+    float: left;
+    padding-right: 10px; /* whitespace */
+  }
+
+.container{
+    overflow: auto;
+    /* dont forget to adjust the overflow */
+    clear: both;
+}
+
+.sidebar{
+    clear: both;
+    float: right;
+    padding: 10px;
+}
+
+
+
+
